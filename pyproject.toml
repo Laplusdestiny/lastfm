@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lastfm"
+version = "0.1.0"
+description = ""
+authors = ["Laplusdestiny <prayonshootingstars@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "*"
+pandas = "*"
+plotly = "*"
+tqdm = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
